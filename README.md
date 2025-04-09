@@ -3,6 +3,15 @@ Run baseline experiments on Game24 independently and use Tree of Thoughts on a s
 
 Paper repository: [GitHub](https://github.com/princeton-nlp/tree-of-thought-llm/tree/master)
 
+## Experiments
+Simple experiments on 100 random samples. Total run time for ToT is approx. 1 hour on a Macbook Pro.
+
+| Method     | Success   | Runs |
+| --------   | --------  | ---- |
+| IO prompt  | 10%       | 1    |
+| CoT prompt | 26%       | 1    |
+| ToT (b=1)  | 50%       | 1    |
+
 ## Citations
 
 ```bibtex
